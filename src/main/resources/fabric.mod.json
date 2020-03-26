@@ -11,8 +11,8 @@
   },
   "environment": "*",
   "depends": {
-    "fabricloader": ">=0.4.0"
-    "functionapi":"*"
+    "fabricloader": ">=0.4.0",
+    "functionapi":"*",
     "prefabmod":"*"
   }
 }

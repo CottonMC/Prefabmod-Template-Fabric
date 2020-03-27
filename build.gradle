@@ -34,10 +34,10 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	compileOnly "com.google.code.findbugs:jsr305:3.0.2"
-	modImplementation(group: 'io.github.cottonmc.functionapi', name: 'prefabmod', version: '1.4.0-SNAPSHOT')
+	modImplementation(group: 'io.github.cottonmc.functionapi', name: 'prefabmod', version: '1.4.0-SNAPSHOT', classifier:"dev")
 	include(group: 'io.github.cottonmc.functionapi', name: 'prefabmod', version: '1.4.0-SNAPSHOT')
 	
-	modImplementation(group: 'io.github.cottonmc.functionapi', name: 'functionapi', version: '2.0.0-1.5.2-SNAPSHOT')
+	modImplementation(group: 'io.github.cottonmc.functionapi', name: 'functionapi', version: '2.0.0-1.5.2-SNAPSHOT', classifier:"dev")
 	include(group: 'io.github.cottonmc.functionapi', name: 'functionapi', version: '2.0.0-1.5.2-SNAPSHOT')
 }
 

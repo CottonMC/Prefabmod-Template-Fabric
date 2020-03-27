@@ -43,8 +43,8 @@ dependencies {
     modImplementation(group: 'io.github.cottonmc', name: 'functionapi-content', version: '1.4-SNAPSHOT')
     modImplementation(group: 'io.github.cottonmc', name: 'functionapi-scripting', version: "1.1-SNAPSHOT")
 
-    modImplementation(group: 'io.github.cottonmc.functionapi', name: 'prefabmod', version: '1.4.0-SNAPSHOT', classifier: "dev")
-    include(group: 'io.github.cottonmc.functionapi', name: 'prefabmod', version: '1.4.0-SNAPSHOT')
+    modImplementation(group: 'io.github.cottonmc.functionapi', name: 'prefabmod', version: '1.0.0-SNAPSHOT', classifier: "dev")
+    include(group: 'io.github.cottonmc.functionapi', name: 'prefabmod', version: '1.0.0-SNAPSHOT')
 
     modImplementation(group: 'io.github.cottonmc.functionapi', name: 'functionapi', version: '2.0.0-1.5.2-SNAPSHOT', classifier: "dev")
     include(group: 'io.github.cottonmc.functionapi', name: 'functionapi', version: '2.0.0-1.5.2-SNAPSHOT')

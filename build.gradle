@@ -37,8 +37,8 @@ dependencies {
 	modImplementation(group: 'io.github.cottonmc.functionapi', name: 'prefabmod', version: '1.4.0-SNAPSHOT')
 	include(group: 'io.github.cottonmc.functionapi', name: 'prefabmod', version: '1.4.0-SNAPSHOT')
 	
-	modImplementation(group: 'io.github.cottonmc.functionapi', name: 'functionapi', version: '1.4.0-SNAPSHOT')
-	include(group: 'io.github.cottonmc.functionapi', name: 'functionapi', version: '1.4.0-SNAPSHOT')
+	modImplementation(group: 'io.github.cottonmc.functionapi', name: 'functionapi', version: '2.0.0-1.5.2-SNAPSHOT')
+	include(group: 'io.github.cottonmc.functionapi', name: 'functionapi', version: '2.0.0-1.5.2-SNAPSHOT')
 }
 
 processResources {
